@@ -54,11 +54,22 @@ body {
 /* blogs style */
 .blogs {
 	display: grid;
-	grid-template-columns: 1fr, 1fr, 1fr;
-	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .blog a {
 	text-decoration: none;
 	padding: 20px;
+}
+
+/* footer style */
+footer {
+	background-color: #161616;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+footer .end {
+	margin-right: 10px;
 }
