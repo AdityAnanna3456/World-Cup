@@ -10,6 +10,10 @@ body {
 	line-height: 30px;
 }
 
+hr {
+	border: 1px solid black;
+}
+
 
 /* top-banner style */
 .top-banner {
@@ -52,7 +56,7 @@ body {
 	25% {
 		top: 225px;
 		background-color: red;
-		transform: scale(0.25);
+		transform: scale(0.2);
 	}
 
 	50% {
@@ -64,7 +68,7 @@ body {
 	75% {
 		top: 225px;
 		background-color: red;
-		transform: scale(0.25);
+		transform: scale(0.2);
 	}
 
 	100% {
@@ -94,7 +98,7 @@ body {
 /* blogs style */
 .blogs {
 	display: grid;
-	grid-template-columns: repeat(3, 2fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .blog a {
@@ -112,4 +116,10 @@ footer {
 
 footer .end {
 	margin-right: 10px;
+}
+
+/* upcoming style */
+#two {
+	background-color: #DD0000;
+	border-radius: 10px;
 }
