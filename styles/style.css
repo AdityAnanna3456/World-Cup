@@ -99,11 +99,18 @@ hr {
 .blogs {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+
 }
+
+
 
 .blog a {
 	text-decoration: none;
 	padding: 20px;
+	position: relative;
+	
+
 }
 
 /* footer style */
@@ -111,10 +118,12 @@ footer {
 	background-color: #161616;
 	text-align: center;
 	color: #FFFFFF;
+	padding: 5px;
+
 
 }
 
-footer .end {
+.end {
 	margin-right: 10px;
 }
 
@@ -122,4 +131,17 @@ footer .end {
 #two {
 	background-color: #DD0000;
 	border-radius: 10px;
+}
+
+/* flags style */
+.flags {
+	border: 1px solid black;
+	justify-content: space-between;
+	margin-top: 7px;
+	padding: 5px;
+
+}
+
+.flags p {
+	text-align: center;
 }
