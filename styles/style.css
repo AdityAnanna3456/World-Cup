@@ -109,7 +109,7 @@ hr {
 	text-decoration: none;
 	padding: 20px;
 	position: relative;
-	
+
 
 }
 
@@ -144,4 +144,45 @@ footer {
 
 .flags p {
 	text-align: center;
+}
+
+/* media quearies */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+	.container {
+		width: 100%
+	}
+
+	.blogs {
+		grid-template-columns: repeat(1, 1fr);
+
+	}
+
+	.blogs {
+		flex-direction: column;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* tablet devices */
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+	.container {
+		width: 100%;
+	}
+
+	.blogs {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.match {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
 }
